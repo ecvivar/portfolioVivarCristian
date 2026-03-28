@@ -8,10 +8,112 @@
 </head>
 <body>
 
-<header></header>
-<nav></nav>
-<main></main>
-<footer></footer>
+    <!-- Header -->
+    <!-- Contiene el título principal del sitio -->
+    <header>
+        <h1>Mi Portafolio Personal</h1>
+    </header>
+
+    <!-- Nav -->
+    <!-- Barra de navegacion con enlaces internos -->
+    <nav>
+        <a href="#sobre-mi">Sobre mi</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sobre mi-->
+        <!-- Presentacion personal -->
+        <section id="sobre-mi">
+            <h2>Sobre mi</h2>
+            <p>Hola, mi nombre es Cristian. Me interesa el desarrollo de softwareen general, llevo realizado distintos cursos de formacion y 
+            estoy profundizando mi formación a traves de la Tecnicatura en Desarrollo de Software. Actualmente estoy. 
+            Me apasiona el mundo del desarrollo web y estoy aprendiendo a crear interfaces y comprender cómo funcionan las aplicaciones.
+            </p>
+            <img src="img/perfil.jpg" alt="Imagen de perfil">
+        </section>
+
+        <!-- Proyectos -->
+        <!-- Seccion de proyectos organizados en columnas -->
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="contenedor-proyectos">
+                <div class="proyecto">
+                    <img src="img/proyecto1.jpg" alt="Proyecto 1">
+                    <p>Proyecto de practica con HTML y CSS.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="img/proyecto2.jpg" alt="Proyecto 2">
+                    <p>Proyecto de practica con JavaScript.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <!-- Lista de habilidades con iconos -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul class="habilidades-lista">
+                <li><img src="img/html-icon.png" alt="HTML"> HTML</li>
+                <li><img src="img/css-icon.png" alt="CSS"> CSS</li>
+                <li><img src="img/js-icon.png" alt="JavaScript"> JavaScript</li>
+            </ul>
+        </section>
+
+        <!-- Contacto -->
+        <!-- Formulario de contacto basico-->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" placeholder="Nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" placeholder="Apellido" required>
+
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" placeholder="Teléfono" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" placeholder="Ingrese su mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Peliculas -->
+        <!-- Seccion de peliculas favoritas -->
+        <section id="peliculas">
+            <h2>Peliculas Favoritas</h2>
+            <div>
+                <h3>Matrix</h3>
+                <img src="img/matrix.jpg" alt="Matrix">
+                <p>Una película de ciencia ficción que explora la realidad, la inteligencia artificial y los sistemas
+            </div>
+            <div>
+                <h3>Interstellar</h3>
+                <img src="img/interstellar.jpg" alt="Interstellar">
+                <p>Una experiencia visual que explora el espacio, el tiempo y la supervivencia humana.</p>
+            </div>
+            <div>
+                <h3>Volver al futuro</h3>
+                <img src="img/volver-al-futuro.jpg" alt="Volver al futuro">
+                <p>Una película iconica que explora el tiempo y las consecuencias de viajar en el tiempo.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <!-- Informacion adicional-->
+    <footer>
+        <p>&copy; 2024 Mi Portafolio Personal. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
