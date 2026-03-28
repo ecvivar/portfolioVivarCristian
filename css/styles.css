@@ -5,36 +5,63 @@
     box-sizing: border-box;
 }
 
-/* Tipografía geneal */
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo geneal */
 body {
-    font-family: 'Arial', sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-family: 'Orbitron', sans-serif;
     line-height: 1.6;
-    padding: 10px;
 }
 
 /* Header */
 header {
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 2px solid #22d3ee;
+}
+
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: #22d3ee;
+    text-shadow: 0 0 10px #22d3ee;
 }
 
 /* Navegación */
 nav {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 20px;
+    padding: 15px;
 }
 
 nav a {
+    color: #22d3ee;
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f472b6;
+    text-shadow: 0 0 5px #f472b6;
 }
 
 /* Secciones */
 section {
-    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #1e293b;
+}
+
+/* Titulos */
+h2 {
+    margin-bottom: 15px;
+    color: #f472b6;
+    text-shadow: 0 0 8px #f472b6;
 }
 
 /* Proyectos */
@@ -45,14 +72,21 @@ section {
 }
 
 .proyecto {
-    border: 1px solid #ccc;
+    background: #1e293b;
     padding: 10px;
-    width: 200px;
+    border: 1px solid #22d3ee;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.proyecto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px #22d3ee;
 }
 
 /* Imagenes */
 img {
     max-width: 100%;
+    border-radius: 5px;
 }
 
 /* Formulario de contacto */
@@ -63,14 +97,38 @@ form {
     max-width: 300px;
 }
 
-input, textarea, button {
-    padding: 8px;
+input, button, textarea {
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+input {
+    background-color: #1e293b;
+    color: #e2e8f0;
+}
+
+button {
+    background: #22d3ee;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #f472b6;
+}
+
+textarea {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    resize: vertical;
 }
 
 /* Footer */
 footer {
     text-align: center;
+    padding: 15px;
+    border-top: 2px solid #22d3ee;
     margin-top: 20px;
 }
