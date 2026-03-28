@@ -51,8 +51,17 @@ nav a:hover {
     text-shadow: 0 0 5px #f472b6;
 }
 
+/* Links mas suaves */
+a {
+    color: #22d3ee;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
 /* Secciones */
 section {
+    max-width: 900px;
+    margin: auto;
     padding: 20px;
     border-bottom: 1px solid #1e293b;
 }
@@ -62,6 +71,20 @@ h2 {
     margin-bottom: 15px;
     color: #f472b6;
     text-shadow: 0 0 8px #f472b6;
+}
+
+/* Sobre mi */
+.sobre-mi-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sobre-mi-contenedor img {
+    width: 150px;
+    border: 2px solid #22d3ee;
+    box-shadow: 0 0 10px #22d3ee;
 }
 
 /* Proyectos */
@@ -117,6 +140,7 @@ button {
 
 button:hover {
     background-color: #f472b6;
+    transform: scale(1.05);
 }
 
 textarea {
@@ -125,10 +149,58 @@ textarea {
     resize: vertical;
 }
 
+#habilidades img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+#peliculas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#peliculas img {
+    width: 180px;
+    height: 260px;
+    object-fit: cover;
+    border: 2px solid #22d3ee;
+}
+
+#peliculas img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #f472b6;
+}
+
 /* Footer */
 footer {
     text-align: center;
     padding: 15px;
     border-top: 2px solid #22d3ee;
     margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-proyectos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+        max-width: none;
+    }
+
+    header h1 {
+        font-size: 1rem;
+    }
 }
