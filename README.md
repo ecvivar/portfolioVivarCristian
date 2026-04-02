@@ -25,7 +25,7 @@ Características
 
 - Diseño responsive  
 - Estética retro con efectos visuales  
-- Navegación interna mediante anclas  
+- Navegación interna 
 - Tarjetas interactivas con efectos hover  
 - Integración de iconos e imágenes  
 
@@ -33,7 +33,7 @@ Características
 Cómo ejecutar el proyecto
 
 Clonar el repositorio:
-git clone https://github.com/tu-usuario/portfolio-retro.git  
+git clone https://github.com/ecvivar/portfolioVivarCristian
 
 Abrir el archivo index.html en el navegador para visualizar el sitio.
 
