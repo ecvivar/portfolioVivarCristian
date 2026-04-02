@@ -41,7 +41,7 @@ Abrir el archivo index.html en el navegador para visualizar el sitio.
 Deploy
 
 Aplicación publicada en Vercel:  
-https://TU-LINK-VERCEL.vercel.app  
+https://portfolio-vivar-cristian.vercel.app  
 
 
 Autor
@@ -61,8 +61,8 @@ Estructura del Proyecto
 Repositorio y Publicación  
 - [x] Repositorio en GitHub creado  
 - [x] Proyecto subido al repositorio  
-- [ ] Proyecto publicado utilizando Vercel  
-- [ ] En el README se indica la URL de Vercel  
+- [x] Proyecto publicado utilizando Vercel  
+- [x] En el README se indica la URL de Vercel  
 
 Uso de Google Fonts  
 - [x] Enlace a Google Fonts incluido en el head  
@@ -103,8 +103,3 @@ Consideraciones Adicionales
 - [x] Diseño responsive  
 - [x] Uso de atributos alt en imágenes  
 - [x] Comentarios adicionales en el código  
-
-
-Estado del proyecto
-
-Finalizado - Trabajo práctico académico
